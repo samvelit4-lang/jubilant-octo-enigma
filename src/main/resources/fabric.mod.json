@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "id": "scriptmod",
+  "version": "${version}",
+  "name": "Script Mod",
+  "description": "Client script executor mod",
+  "authors": ["Developer"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.scriptmod.core.ClientModInit"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15",
+    "minecraft": "~1.20.4",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}
